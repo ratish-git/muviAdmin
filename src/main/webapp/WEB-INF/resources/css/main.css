@@ -1,0 +1,19 @@
+.table {
+    table-layout: fixed;
+    overflow: auto;
+    color: #2b669a;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    background: lightskyblue;
+
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
